@@ -6,7 +6,7 @@ let ngrams: { [index: string]: number } = {}
 for (let i = 0; i <= txt.length - order; i++)
 {
     // this is because you want to extract i and the three characters succeeding it
-    let gram = txt.substring(i, i+3)
+    let gram = txt.substring(i, i+order)
 
     // if it exists it'll return true. if it doesnt, then move to else
     if (ngrams[gram]) { ngrams[gram]++ }
