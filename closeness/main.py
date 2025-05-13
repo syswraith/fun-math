@@ -1,3 +1,17 @@
+"""
+The person's closeness to the target is determined by dividing the ideal distance by the person's distance.
+Ideal distance = 1.0
+Person's distance 1 + ed
+where ed = Euclidean distance
+
+Euclidean distance is given by taking the 
+1. square root of
+2. sum of
+3. square of
+4. the differences between
+5. max attribute and given attribute
+"""
+
 from math import sqrt
 
 
